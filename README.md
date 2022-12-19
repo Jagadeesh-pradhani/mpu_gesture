@@ -11,3 +11,18 @@ https://github.com/Jagadeesh-pradhani/AeroKLE
 1) connect as following
 
 ![image](https://user-images.githubusercontent.com/97280653/208387055-dc45fb20-47b6-4b93-922d-12613e2e7e90.png)
+
+2) Connect both RPI to same a network.
+
+3) Get the IP-adress of reciver RPI from terminal
+```
+ifconfig
+```
+
+### Client or MPU
+1) Here client side is MPU which will be in our hand.
+2) You need to open 1 terminal to send data to drone, and run the send.py prgram
+
+### Server or Drone
+1) Here the server side is the RPI present in drone.
+2) Open 2 terminal 1 to send data, other to run dronekit program.
