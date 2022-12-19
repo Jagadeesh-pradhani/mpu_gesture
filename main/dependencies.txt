@@ -1,0 +1,15 @@
+###In Drone
+sudo apt-get update
+sudo apt-get install socket
+
+### In Ground RPI
+sudo apt-get update
+sudo apt-get install socket
+
+1) Enable I2C from,
+sudo raspi-config
+
+2) Then install following
+sudo pip installs RPi.GPIO
+sudo apt-get install python-smbus
+pip install mpu6050-raspberrypi
